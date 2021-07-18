@@ -208,7 +208,11 @@ namespace TeamBeta2021
 					break;
 			}
 
-			return new JsonTextActionResult(request, sessionId);
+			DateTime today = DateTime.Now;
+			DateTime tomorrow = today.AddDays(1);
+			string expiration = tomorrow.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
+
+			return new JsonTextActionResult(request, "{\"sessionId\":\""+ sessionId + "\",\"code\":\"" + id + "\",\"expiration\":\"" + expiration + "\"}");
 		}
 
 		//private string StartRecording(HttpRequestMessage request)
