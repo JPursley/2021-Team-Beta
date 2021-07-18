@@ -138,8 +138,8 @@ namespace TeamBeta2021
 				Guid noteID = Guid.Parse(id);
 
 				PXDatabase.Update<CRActivity>(
-					new PXDataFieldAssign("SessionID", sessionId),
-					new PXDataFieldRestrict("NoteID", PXDbType.UniqueIdentifier, 6, noteID, PXComp.EQ)
+					new PXDataFieldAssign<CRActivity.body>(sessionId),
+					new PXDataFieldRestrict<CRActivity.noteID>(PXDbType.UniqueIdentifier, 16, noteID, PXComp.EQ)
 					);
 			}
 		}
@@ -151,8 +151,8 @@ namespace TeamBeta2021
 				Guid noteID = Guid.Parse(id);
 
 				PXDataRecord rec = PXDatabase.SelectSingle<CRActivity>(
-					new PXDataField<TBetaCRActivityExtension.sessionID>(),
-					new PXDataFieldValue<CRActivity.noteID>(PXDbType.UniqueIdentifier, 6, noteID)
+					new PXDataField<CRActivity.body>(),
+					new PXDataFieldValue<CRActivity.noteID>(PXDbType.UniqueIdentifier, 16, noteID)
 					);
 
 				return rec.GetString(0);
@@ -189,7 +189,7 @@ namespace TeamBeta2021
 
 			var _queryParameters = HttpUtility.ParseQueryString(request.RequestUri.Query);
 			string client = _queryParameters.Get("role");
-			string id = _queryParameters.Get("id");
+			string id = _queryParameters.Get("nid");
 
 			string sessionId = null;
 

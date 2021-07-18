@@ -51,12 +51,12 @@ namespace TeamBeta2021
             string apikey = Creds.Current.Apikey;
 
 
-            var srurl = "https://hackathon.acumatica.com/Beta/Frames/vnr.html?key=" + apikey + "&id=" + Base.CurrentActivity.Current.NoteID.ToString();
+            var srurl = "https://hackathon.acumatica.com/Beta/Frames/vnr.html?key=" + apikey + "&nid=" + Base.CurrentActivity.Current.NoteID.ToString();
 
             var request = new SendMessageRequest()
             {
                 RecepientPhoneNbr = (mycontact.Phone1 == null) ? mycontact.Phone2 : mycontact.Phone1,
-                RecepientSMSMessage = "Join: "+ srurl
+                RecepientSMSMessage = ""+ srurl
             };
             request.RecepientPhoneNbr = request.RecepientPhoneNbr.Replace("(", "");
             request.RecepientPhoneNbr = request.RecepientPhoneNbr.Replace(")", "");
@@ -75,7 +75,7 @@ namespace TeamBeta2021
             }
 
 
-            var surl = "https://hackathon.acumatica.com/Beta/Frames/vnl.html?key=" + apikey + "&id=" +
+            var surl = "https://hackathon.acumatica.com/Beta/Frames/vnl.html?key=" + apikey + "&nid=" +
                 Base.CurrentActivity.Current.NoteID.ToString();
 
 

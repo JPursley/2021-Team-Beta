@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "JWT/8.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net46/JWT.dll": {}
-        },
-        "runtime": {
-          "lib/net46/JWT.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -27,15 +15,6 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -63,36 +42,10 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "OpenTok/3.6.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.6.1",
-        "dependencies": {
-          "JWT": "7.2.1",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/OpenTok.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OpenTok.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.8/win": {
-      "JWT/8.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net46/JWT.dll": {}
-        },
-        "runtime": {
-          "lib/net46/JWT.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -106,15 +59,6 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -142,36 +86,10 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "OpenTok/3.6.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.6.1",
-        "dependencies": {
-          "JWT": "7.2.1",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/OpenTok.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OpenTok.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
-      "JWT/8.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net46/JWT.dll": {}
-        },
-        "runtime": {
-          "lib/net46/JWT.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -185,15 +103,6 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -221,36 +130,10 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "OpenTok/3.6.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.6.1",
-        "dependencies": {
-          "JWT": "7.2.1",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/OpenTok.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OpenTok.dll": {}
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
-      "JWT/8.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net46/JWT.dll": {}
-        },
-        "runtime": {
-          "lib/net46/JWT.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -264,15 +147,6 @@
         },
         "runtime": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -300,54 +174,11 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
-        }
-      },
-      "OpenTok/3.6.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.6.1",
-        "dependencies": {
-          "JWT": "7.2.1",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "bin/placeholder/OpenTok.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OpenTok.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "JWT/8.2.2": {
-      "sha512": "HPdd50zUdEfbuuIC2ciFwqyVT34CarODQADN8ZTbfEMp2KrHCrJovpIaE+TRTC4lSSRdywDSwc21WFWiRHaz1Q==",
-      "type": "package",
-      "path": "jwt/8.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "jwt.8.2.2.nupkg.sha512",
-        "jwt.nuspec",
-        "lib/net35/JWT.dll",
-        "lib/net35/JWT.pdb",
-        "lib/net35/JWT.xml",
-        "lib/net40/JWT.dll",
-        "lib/net40/JWT.pdb",
-        "lib/net40/JWT.xml",
-        "lib/net46/JWT.dll",
-        "lib/net46/JWT.pdb",
-        "lib/net46/JWT.xml",
-        "lib/net5.0/JWT.dll",
-        "lib/net5.0/JWT.pdb",
-        "lib/net5.0/JWT.xml",
-        "lib/netstandard1.3/JWT.dll",
-        "lib/netstandard1.3/JWT.pdb",
-        "lib/netstandard1.3/JWT.xml",
-        "lib/netstandard2.0/JWT.dll",
-        "lib/netstandard2.0/JWT.pdb",
-        "lib/netstandard2.0/JWT.xml"
-      ]
-    },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
       "type": "package",
@@ -368,37 +199,6 @@
         "microsoft.bcl.asyncinterfaces.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -469,36 +269,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "OpenTok/3.6.0": {
-      "type": "project",
-      "path": "../../../../../../../Users/pchen/Downloads/Opentok.NET-SDK/OpenTok/OpenTok.csproj",
-      "msbuildProject": "../../../../../../../Users/pchen/Downloads/Opentok.NET-SDK/OpenTok/OpenTok.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "JWT >= 8.2.2",
       "Microsoft.Bcl.AsyncInterfaces >= 5.0.0",
-      "OpenTok >= 3.6.0",
       "System.Runtime.CompilerServices.Unsafe >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pchen\\.nuget\\packages\\": {}
+    "C:\\Users\\marco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SPS\\Acu_Materials\\confMaterials\\Summit2021\\hackathon\\TeamBeta2021\\TeamBeta2021\\TeamBeta2021.csproj",
+      "projectUniqueName": "D:\\Applications\\AcumaticaInstances\\21R1\\App_Data\\Projects\\TeamBeta2021\\TeamBeta2021\\TeamBeta2021.csproj",
       "projectName": "TeamBeta2021",
-      "projectPath": "C:\\SPS\\Acu_Materials\\confMaterials\\Summit2021\\hackathon\\TeamBeta2021\\TeamBeta2021\\TeamBeta2021.csproj",
-      "packagesPath": "C:\\Users\\pchen\\.nuget\\packages\\",
-      "outputPath": "C:\\SPS\\Acu_Materials\\confMaterials\\Summit2021\\hackathon\\TeamBeta2021\\TeamBeta2021\\obj\\",
+      "projectPath": "D:\\Applications\\AcumaticaInstances\\21R1\\App_Data\\Projects\\TeamBeta2021\\TeamBeta2021\\TeamBeta2021.csproj",
+      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+      "outputPath": "D:\\Applications\\AcumaticaInstances\\21R1\\App_Data\\Projects\\TeamBeta2021\\TeamBeta2021\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pchen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -510,21 +308,13 @@
       },
       "frameworks": {
         "net48": {
-          "projectReferences": {
-            "C:\\Users\\pchen\\Downloads\\Opentok.NET-SDK\\OpenTok\\OpenTok.csproj": {
-              "projectPath": "C:\\Users\\pchen\\Downloads\\Opentok.NET-SDK\\OpenTok\\OpenTok.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
     "frameworks": {
       "net48": {
         "dependencies": {
-          "JWT": {
-            "target": "Package",
-            "version": "[8.2.2, )"
-          },
           "Microsoft.Bcl.AsyncInterfaces": {
             "target": "Package",
             "version": "[5.0.0, )"

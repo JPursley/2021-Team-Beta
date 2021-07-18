@@ -213,3 +213,10 @@ C:\SPS\Acu_Materials\confMaterials\Summit2021\hackathon\TeamBeta2021\TeamBeta202
 C:\SPS\Acu_Materials\confMaterials\Summit2021\hackathon\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.pdb
 C:\Acumatica\21R1\TBeta\Bin\TeamBeta2021.dll
 C:\Acumatica\21R1\TBeta\Bin\TeamBeta2021.pdb
+D:\Acumatica\21R1\TBeta\Bin\TeamBeta2021.dll
+D:\Acumatica\21R1\TBeta\Bin\TeamBeta2021.pdb
+D:\Applications\AcumaticaInstances\21R1\App_Data\Projects\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.csproj.AssemblyReference.cache
+D:\Applications\AcumaticaInstances\21R1\App_Data\Projects\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.csproj.CoreCompileInputs.cache
+D:\Applications\AcumaticaInstances\21R1\App_Data\Projects\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.csproj.CopyComplete
+D:\Applications\AcumaticaInstances\21R1\App_Data\Projects\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.dll
+D:\Applications\AcumaticaInstances\21R1\App_Data\Projects\TeamBeta2021\TeamBeta2021\obj\Debug\TeamBeta2021.pdb
