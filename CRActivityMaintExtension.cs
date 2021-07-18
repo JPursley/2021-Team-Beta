@@ -46,10 +46,17 @@ namespace TeamBeta2021
             if (mycontact == null)
                 throw new PXException("No Contact!!!");
 
+            //PXDatabase.SelectDataFields<>();
+
+            string apikey = Creds.Current.Apikey;
+
+
+            var srurl = "https://hackathon.acumatica.com/Beta/Frames/vnr.html?key=" + apikey + "&id=" + Base.CurrentActivity.Current.NoteID.ToString();
+
             var request = new SendMessageRequest()
             {
                 RecepientPhoneNbr = (mycontact.Phone1 == null) ? mycontact.Phone2 : mycontact.Phone1,
-                RecepientSMSMessage = "Hey there, click this http://www.spscommerce.com"
+                RecepientSMSMessage = "Join: "+ srurl
             };
             request.RecepientPhoneNbr = request.RecepientPhoneNbr.Replace("(", "");
             request.RecepientPhoneNbr = request.RecepientPhoneNbr.Replace(")", "");
@@ -64,14 +71,11 @@ namespace TeamBeta2021
             }
             catch (Exception ex)
             {
-                string strEx = ex.Message;
+                throw ex;
             }
 
-            //PXDatabase.SelectDataFields<>();
 
-            string apikey = Creds.Current.Apikey;
-
-            var surl = "https://hackathon.acumatica.com/Beta/Frames/vnr.html?key=" + apikey + "&id=" +
+            var surl = "https://hackathon.acumatica.com/Beta/Frames/vnl.html?key=" + apikey + "&id=" +
                 Base.CurrentActivity.Current.NoteID.ToString();
 
 

@@ -31,9 +31,17 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JWT, Version=7.0.0.0, Culture=neutral, PublicKeyToken=6f98bca0f40f2ecf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Bin\JWT.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTok, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Bin\OpenTok.dll</HintPath>
     </Reference>
     <Reference Include="PX.Common">
       <HintPath>..\..\..\..\Bin\PX.Common.dll</HintPath>
@@ -70,6 +78,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Bin\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Bin\System.Web.Http.dll</HintPath>
@@ -87,14 +96,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="JWT">
-      <Version>8.2.2</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces">
       <Version>5.0.0</Version>
-    </PackageReference>
-    <PackageReference Include="OpenTok">
-      <Version>3.6.0</Version>
     </PackageReference>
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe">
       <Version>5.0.0</Version>
